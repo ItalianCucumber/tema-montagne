@@ -159,7 +159,7 @@ p {
   background-color: var(--purple);
 }
 
-@media only screen and (aspect-ratio: 2/3), (aspect-ratio: 10/16), (aspect-ratio: 9/16) {
+@media only screen and (max-device-width: 480px) {
   h1 {
     font-weight: 900;
     font-size: 7rem;
