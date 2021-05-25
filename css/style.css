@@ -167,14 +167,14 @@ p {
     font-size: 4rem;
   }
 
-  .text #tagline {
-    width: 80%;
+  #tagline {
+    font-weight: 900;
+    font-size: 8rem;
   }
 
   .text #desc {
     margin-left: 10%;
     margin-right: 90%;
-    margin-top: -6%;
     width: 70%;
     padding-bottom: 25px;
   }
