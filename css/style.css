@@ -162,11 +162,11 @@ p {
 @media only screen and (max-device-width: 480px) {
   h1 {
     font-weight: 900;
-    font-size: 7rem;
+    font-size: 8rem;
   }
 
   h2 {
-    font-size: 5rem;
+    font-size: 6rem;
     font-weight: 500;
   }
 
@@ -182,12 +182,12 @@ p {
   .text #desc {
     margin-left: 10%;
     margin-right: 90%;
-    margin-top: -3%;
+    margin-top: -4%;
     width: 70%;
     padding-bottom: 25px;
   }
 
   .button {
-    font-size: 2rem;
+    font-size: 4rem;
   }
 }
