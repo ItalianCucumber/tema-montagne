@@ -175,11 +175,16 @@ p {
   .text #desc {
     margin-left: 10%;
     margin-right: 90%;
+    margin-top: 5%;
     width: 70%;
     padding-bottom: 25px;
   }
 
   .button {
     font-size: 3rem;
+  }
+
+  .buttonpure {
+    margin-top: 3%;
   }
 }
