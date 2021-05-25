@@ -1,0 +1,159 @@
+/* import fonts */
+@import '../assets/font/Inter/inter.css';
+@import '../assets/font/Manrope/manrope.css';
+@import '../assets/font/Raleway/raleway.css';
+
+:root {
+  /* colour scheme */
+  --dark-one: #2a3645;
+  --light-one: #dedede;
+  --purple: #925ee0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Raleway;
+  color: var(--light-one);
+}
+
+h1 {
+  font-family: Inter;
+  font-weight: 900;
+  font-size: 4.5rem;
+}
+
+h2 {
+  font-family: Manrope;
+  font-size: 3.5rem;
+  font-weight: 500;
+}
+
+h3 {
+  font-family: inherit;
+  font-size: 2rem;
+}
+
+p {
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+.headera {
+  margin-top: auto;
+  margin-bottom: auto;
+  max-width: 800px;
+  display: inline-block;
+  padding: 18px 21px;
+}
+
+.headeritem {
+  font-family: Manrope, sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-decoration: none;
+  position: relative;
+  color: var(--light-one);
+  max-width: 800px;
+  display: inline-block;
+  text-align: center;
+  top: 12px;
+  transition-duration: 0.4s;
+}
+
+.headeritem::after {
+  content: "";
+  display: block;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 3px;
+  width: 0px;
+  background-color: var(--purple);
+}
+
+.headeritem:hover {
+  top: 0px;
+  color: var(--purple);
+}
+
+.headeritem:hover::after {
+  width: 100%;
+  transition: all 0.4s;
+}
+
+/* first section */
+.front {
+  padding-top: 11%;
+  padding-bottom: 15%;
+  margin: -10em -0.5em;
+  background-color: var(--dark-one);
+  background-image: url("../assets/img/bg/mountains.jpg");
+  background-size: cover;
+  background-blend-mode: soft-light;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* text in .front */
+.text {
+  text-align: left;
+}
+
+.text #tagline {
+  margin-left: 10%;
+  margin-right: 90%;
+  width: 45%;
+}
+
+.text #desc {
+  margin-left: 10%;
+  margin-right: 90%;
+  margin-top: -3%;
+  width: 70%;
+  padding-bottom: 25px;
+}
+
+.text #des {
+  margin-left: 10%;
+  margin-right: 90%;
+  font-weight: 600;
+  width: 80%
+}
+
+.text #de {
+  margin-left: 10%;
+  margin-right: 90%;
+  font-weight: 300;
+  margin-top: -1.5%;
+  width: 80%
+}
+
+.button {
+  border: none;
+  color: var(--light-one);
+  font-family: inherit;
+  font-size: 1.25rem;
+  padding: 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.buttonpure {
+  margin-left: 11%;
+  margin-right: auto;
+  margin-top: 1%;
+  width: auto;
+  background-color: #2a364544;
+  border: 2px solid var(--purple);
+}
+
+.buttonpure:hover {
+  background-color: var(--purple);
+}
