@@ -103,32 +103,24 @@ p {
   text-align: left;
 }
 
-.text #tagline {
-  margin-left: 10%;
-  margin-right: auto;
-  width: 45%;
+#tagline {
+  font-family: Inter;
+  font-weight: 900;
+  font-size: 4.5rem;
 }
 
 .text #desc {
   margin-left: 10%;
-  margin-right: auto%;
-  margin-top: -3%;
+  margin-right: auto;
   width: 70%;
   padding-bottom: 25px;
 }
 
 .text #des {
   margin-left: 10%;
-  margin-right: auto%;
-  font-weight: 600;
-  width: 80%
-}
-
-.text #de {
-  margin-left: 10%;
-  margin-right: auto%;
+  margin-right: auto;
   font-weight: 300;
-  margin-top: -1.5%;
+  line-height: 1.3;
   width: 80%
 }
 
@@ -185,10 +177,6 @@ p {
     margin-top: -6%;
     width: 70%;
     padding-bottom: 25px;
-  }
-
-  .text #de {
-    margin-top: -3%;
   }
 
   .button {
