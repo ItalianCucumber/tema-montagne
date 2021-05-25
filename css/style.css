@@ -182,9 +182,13 @@ p {
   .text #desc {
     margin-left: 10%;
     margin-right: 90%;
-    margin-top: -4%;
+    margin-top: -6%;
     width: 70%;
     padding-bottom: 25px;
+  }
+
+  .text #de {
+    margin-top: -3%;
   }
 
   .button {
