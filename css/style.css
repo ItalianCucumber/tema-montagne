@@ -180,12 +180,15 @@ p {
     margin-left: auto;
     margin-right: auto;
     margin-top: 15%;
-    width: 80%;
+    width: 90%;
     padding-bottom: 25px;
   }
   
   .text #des {
     width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
   .button {
     font-size: 3rem;
