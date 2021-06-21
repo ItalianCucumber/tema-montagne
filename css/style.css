@@ -292,8 +292,8 @@ nav li:hover::after {
   .nav-toggle-label span::after {
     display: block;
     background: white;
-    height: 3px;
-    width: 3em;
+    height: 5px;
+    width: 5em;
     position: relative;
   }
   
@@ -304,30 +304,29 @@ nav li:hover::after {
   }
   
   .nav-toggle-label span::before {
-    bottom: 11px;
+    bottom: 16px;
     transition-duration: 0.3s;
   }
   
   .nav-toggle-label span::after {
-    top: 11px;
+    top: 16px;
     transition-duration: 0.3s;
   }
   
   .nav-toggle-label:hover span::before {
-    bottom: 14px;
+    bottom: 20px;
     transition-duration: 0.3s;
   }
   
   .nav-toggle-label:hover span::after {
-    top: 14px;
+    top: 20px;
     transition-duration: 0.3s;
   }
   
   .logo {
-    width: 3.5em;
-    height: 3.5em;
+    width: 5.5em;
+    height: 5.5em;
     margin: 1em;
-    float: right;
   }
 
   #tagline {
