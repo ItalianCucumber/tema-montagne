@@ -304,29 +304,29 @@ nav li:hover::after {
   }
   
   .nav-toggle-label span::before {
-    bottom: 26px;
+    bottom: 50px;
     transition-duration: 0.3s;
   }
   
   .nav-toggle-label span::after {
-    top: 26px;
+    top: 50px;
     transition-duration: 0.3s;
   }
   
   .nav-toggle-label:hover span::before {
-    bottom: 30px;
+    bottom: 56px;
     transition-duration: 0.3s;
   }
   
   .nav-toggle-label:hover span::after {
-    top: 30px;
+    top: 56px;
     transition-duration: 0.3s;
   }
   
   .logo {
-    position: absolute;
-    width: 7.5em;
-    height: 7.5em;
+    position: relative;
+    width: 6.5em;
+    height: 6.5em;
     margin: 1em;
     right: 5%;
   }
