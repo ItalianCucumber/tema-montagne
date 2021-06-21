@@ -226,8 +226,13 @@ nav li:hover::after {
     z-index: 2;
     width: 100%;
   }
+
+  nav * {
+    all: unset;
+  }
   
   nav {
+    all: unset;
     position: absolute;
     text-align: left;
     top: 100%;
@@ -253,7 +258,7 @@ nav li:hover::after {
   nav a {
     color: var(--clr-light);
     text-decoration: none;
-    font-size: 1.2em;
+    font-size: 1.7em;
     opacity: 0;
     transition: opacity 150ms ease-in-out;
   }
